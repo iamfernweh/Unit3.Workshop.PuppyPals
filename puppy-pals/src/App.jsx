@@ -6,10 +6,10 @@ function App() {
   const [puppies, setPuppies] = useState(puppyList)
   const [featPupId, setFeatPupId] = useState(null)
 
-  console.log('puppyLIst: ', puppyList);
+  //console.log('puppyLIst: ', puppyList);
   
   function handleClick(puppyId){
-    console.log('puppy id: ', puppyId);
+    //console.log('puppy id: ', puppyId);
     setFeatPupId(puppyId);
   }
 
