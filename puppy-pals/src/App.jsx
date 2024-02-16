@@ -14,7 +14,7 @@ function App() {
   }
 
   const featuredPup = puppies.find((pup) => pup.id === featPupId);
-  console.log(featuredPup);
+  //console.log(featuredPup);
 
   return (
     <div className="App">
